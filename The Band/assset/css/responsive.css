@@ -1,0 +1,75 @@
+/* PC */
+@media (min-width: 1024px){
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    
+}
+
+/* Mobile */
+@media(max-width: 739px){
+
+    .s-full-width{
+        width: 100% !important;
+    }
+
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-icon{
+        display: none;
+    }
+
+    #header .menu-icon{
+        display: block;
+    }
+
+    #header .menu-btn:hover{
+        background-color: #CCCCCC;
+        cursor: pointer;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav li a{
+        display: block;
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #slider .text-content{
+        display: none;
+    }
+
+     .contact-form{
+         margin-top: 16px;
+     }
+}
