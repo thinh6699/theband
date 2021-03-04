@@ -315,10 +315,15 @@ html{
 .tour-place-ava {
     width: 100%;
     display: block;
+    transition: 1s;
+}
+
+.control_img{
+    overflow: hidden;
 }
 
 .tour-place-ava:hover{
-    opacity: 0.6;
+    transform: scale(1.1);
 }
 
 .tour-place-infor {
